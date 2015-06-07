@@ -1,0 +1,2 @@
+module SegurosVehiculosHelper
+end

@@ -1,0 +1,33 @@
+<%= form_for(:contacto, url: crearContacto_path) do |f| %>
+                  <div class="quote-form" data-quote-form-for="life-insurance">  
+                  <i class="fa fa-bus background-icon"></i>     
+                  <div class="quote-form-background" style="background-image: url( '_assets/_img/image.png' );">
+                  </div>
+                  <div class="quote-form-content">
+                      
+                      <div class="form">   
+                         <h4>Detalles de Contacto:</h4>
+                 
+                         <%= f.text_field :nombre, class: 'quote-form-element quote-form-client-name', placeholder: 'Nombre Completo' %>
+                         <%= f.text_field :telefono, class: 'quote-form-element last', placeholder: 'Telefono' %>
+                         <%= f.text_field :celular, class: 'quote-form-element', placeholder: 'Celular', required: 'true' %>
+                         <%= f.text_field :email, class: 'quote-form-element quote-form-client-email last', placeholder: 'Email' %>
+                 
+                         <h4>Mensaje:</h4>
+                         <%= f.text_area :mensaje, class: 'contact-form-element', rows: '5', cols: '5' %> 
+                        
+                <button class="button button-navy-blue send-quote" type="submit">Enviar<i class="fa fa-paper-plane-o"></i></button>         
+                <!--<%= f.submit "Enviar", class: 'button button-navy-blue send-quote' %>-->
+                
+                 <div class="quote-form-thanks">
+                    <div class="quote-form-thanks-content">
+                            Muchas gracias por preferirnos, muy pronto estara recibiendo su cotizacion 
+                            <span class="quote-form-thanks-close">Cerrar</span>
+                    </div>
+                </div>
+              
+              </div>
+          </div>
+          
+         </div>
+      <% end %>

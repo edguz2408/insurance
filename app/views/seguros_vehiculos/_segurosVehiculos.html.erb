@@ -1,0 +1,50 @@
+<%= form_for(:seguroVehiculo, url: crearSegVehiculo_path) do |f| %>
+          <div class="quote-form" data-quote-form-for="car-insurance">  
+          <i class="fa fa-car background-icon"></i>     
+          <div class="quote-form-background" style="background-image: url( '_assets/_img/image.png' );">
+          </div>
+          
+          <div class="quote-form-content">
+
+              <h2>Seguros de vehiculos <span>Cotizacion</span></h2>
+              <div class="form">   
+                 
+                 <h4>Datos del cliente:</h4>
+                 <%= f.text_field :nombre, class: 'quote-form-element quote-form-client-name', placeholder: 'Nombre Completo' %>
+                 
+                 <!--<span class="custom-dropdown last">
+                     <%= f.select(:edad, options_for_select(18..75), {}, {required: 'true', class: 'custom-dropdown-select quote-form-element'}) %>
+                     <%= f.text_field :dependientes, class: 'quote-form-element' %>
+                 </span>-->
+                 
+                 <%= f.text_field :telefono, class: 'quote-form-element last', placeholder: 'Telefono', required: 'tru' %>
+                 <%= f.text_field :celular, class: 'quote-form-element', placeholder: 'Celular' %>
+                 <%= f.text_field :email, class: 'quote-form-element quote-form-client-email last', placeholder: 'Email' %>
+                 
+                 <h4>Datos sobre el vehiculo:</h4>
+                 <%= f.text_field :marca, class: "quote-form-element", placeholder: 'Marca' %>
+                 <%= f.text_field :model, class: "quote-form-element last", placeholder: 'Modelo' %>
+                 
+                 <span class="custom-dropdown">
+                         <%= f.select(:compania, options_for_select(['Banreservas', 'Seguros Constitucion'], 'Seguros Constitucion'), {}, {required: 'true', class: 'custom-dropdown-select quote-form-element'}) %>
+                 </span>
+                 
+                 <span class="custom-dropdown last">
+                         <%= f.select(:año, options_for_select(2005..2020), {include_blank: 'Año'}, {required: 'true', class: 'custom-dropdown-select quote-form-element'}) %>
+                 </span>
+                 
+                <button class="button button-navy-blue send-quote" type="submit">Enviar<i class="fa fa-paper-plane-o"></i></button>         
+                <!--<%= f.submit "Enviar", class: 'button button-navy-blue send-quote' %>-->
+                
+                <div class="quote-form-thanks">
+                    <div class="quote-form-thanks-content">
+                            Muchas gracias por preferirnos, muy pronto estara recibiendo su cotizacion 
+                            <span class="quote-form-thanks-close">Cerrar</span>
+                    </div>
+                </div>
+              
+              </div>
+          </div>
+          
+         </div>
+      <% end %>
