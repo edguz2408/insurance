@@ -2,10 +2,10 @@ class SegurosSaludController < ApplicationController
     def new 
     end
     def create
-        segurosSalud = SegurosSalud.new(segurosSalud_params)
-        if segurosSalud.save
+        @segurosSalud = SegurosSalud.new(segurosSalud_params)
+        if @segurosSalud.save
             flash[:success] = 'Muchas gracias por preferirnos, muy pronto le estaremos enviando su cotizacion'
-            
+            @segurosSalud.sendSegurosSalud_email
         else
             flash[:danger] = "Su peticion ha sido registrada anteriormente, muy pronto estará recibiendo su cotizacion"
             
