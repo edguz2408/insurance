@@ -11,7 +11,7 @@
                  <%= f.text_field :name, placeholder: 'Nombre Completo', class: 'quote-form-element quote-form-client-name' %>
                  
                  <span class="custom-dropdown last">
-                     <%= f.select(:dependientes, options_for_select(0..10), {}, {required: 'true', class: 'custom-dropdown-select quote-form-element'}) %>
+                     <%= f.select(:dependientes, options_for_select(0..10), {include_blank: 'Dependientes'}, {required: 'true', class: 'custom-dropdown-select quote-form-element'}) %>
                      <!--<%= f.text_field :dependientes, class: 'quote-form-element' %>-->
                  </span>
                  

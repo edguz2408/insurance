@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'therubyracer'
 gem 'rails',        '4.2.0'
 gem 'bcrypt',       '3.1.7'
 gem 'faker',        '1.4.2'
@@ -29,7 +30,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg',             '0.17.1'
+  gem 'pg'
   gem 'rails_12factor', '0.0.2'
   
 end
