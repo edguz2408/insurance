@@ -83,8 +83,8 @@ config.action_mailer.smtp_settings = {
   address:              'smtp.gmail.com',
   port:                 587,
   domain:               'gmail.com',
-  user_name:            'edguzman2408@gmail.com',
-  password:             'eltingui2',
+  user_name:            'servclientejls@gmail.com',
+  password:             'javier0415',
   authentication:       'plain',
   enable_starttls_auto: true  }
 end
