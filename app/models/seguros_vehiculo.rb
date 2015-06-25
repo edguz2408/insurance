@@ -6,4 +6,14 @@ class SegurosVehiculo < ActiveRecord::Base
     validates :email, presence: true, length: { maximum: 255 },
                     format: { with: VALID_EMAIL_REGEX },
                     uniqueness: { case_sensitive: false }
+                    
+    
+    def sendSegurosVehiculo_email
+        SegurosVehiculosMailer.segurosVehiculos_email(self).deliver_now
+    end
+    
+    def sendSegurosVehiculoAlert
+        SegurosVehiculosMailer.segurosVehiculosAlertEmail(self).deliver_now
+    end
+    
 end

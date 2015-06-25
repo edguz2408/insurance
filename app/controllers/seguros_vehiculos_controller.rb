@@ -1,9 +1,11 @@
 class SegurosVehiculosController < ApplicationController
   def create
-    seguroVehiculo = SegurosVehiculo.new(seguroVehiculos_params)
+    @seguroVehiculo = SegurosVehiculo.new(seguroVehiculos_params)
     
-    if seguroVehiculo.save
+    if @seguroVehiculo.save
       flash[:success] = 'Muchas gracias por preferirnos, muy pronto le estaremos enviando su cotizacion'
+      @seguroVehiculo.sendSegurosVehiculo_email
+      @seguroVehiculo.sendSegurosVehiculoAlert
     else
       flash[:danger] = "Su peticion ha sido registrada anteriormente, muy pronto estará recibiendo su cotizacion"
     end
