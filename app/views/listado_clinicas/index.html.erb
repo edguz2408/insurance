@@ -1,4 +1,4 @@
-<div class="panel panel-default" style="padding-top:120px;">
+<div class="botstrap panel panel-default" style="padding-top:120px;">
     <div class="panel-heading">Selecione Region</div>
     <div class="custom-dropdown panel-body">
         <%= select_tag "ubicacion", options_for_select(['Santo Domingo', 'Region Norte', 'Region Este', 'Region Sur'], 'Santo Domingo') , 
@@ -7,7 +7,7 @@
 </div>
 
 
-<section class="box-with-image-left section-top-space">
+<section class="box-with-image-left section-top-space bootstrap">
     <h1>Listado de Clinicas</h1> 
 
     <table class="table table-striped">
@@ -29,7 +29,7 @@
  
 </section>
 
-<div style="text-align:center;">
+<div class="bootstrap" style="text-align:center"; >
     <%= will_paginate @clinicas, :previous_label => 'Anterior', :next_label => 'Proximo' %>
 </div>
 

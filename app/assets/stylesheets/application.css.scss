@@ -1,5 +1,9 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
+
+.bootstrap{
+	@import "bootstrap-sprockets"; 
+	@import "bootstrap";
+	
+}
 
 #logo {
   float: left;
