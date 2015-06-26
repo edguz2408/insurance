@@ -11,4 +11,8 @@ class SegurosSalud < ActiveRecord::Base
         SegurosSaludMailer.segurosSalud_email(self).deliver_now
     end
     
+    def sendSegurosSaludAlert
+        SegurosSaludMailer.segurosSaludAlertEmail(self).deliver_now
+    end
+    
 end

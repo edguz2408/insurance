@@ -7,6 +7,6 @@ class SegurosVehiculosMailer < ApplicationMailer
     def segurosVehiculosAlertEmail(segurosVehiculos)
         @segurosVehiculos = segurosVehiculos
         admins = ['edguzman2408@gmail.com', 'johannateresa@gmail.com']
-        mail to: admins, subject: "Nueva cotizacion"
+        mail to: admins, subject: "Nueva cotizacion Seguro de vehiculos"
     end
 end

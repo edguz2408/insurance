@@ -5,7 +5,7 @@ class SegurosVehiculosController < ApplicationController
     if @seguroVehiculo.save
       flash[:success] = 'Muchas gracias por preferirnos, muy pronto le estaremos enviando su cotizacion'
       @seguroVehiculo.sendSegurosVehiculo_email
-      @seguroVehiculo.sendSegurosVehiculoAlert
+      @seguroVehiculo.sendSegurosSaludAlert
     else
       flash[:danger] = "Su peticion ha sido registrada anteriormente, muy pronto estará recibiendo su cotizacion"
     end
