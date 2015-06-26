@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'segurosSalud' => 'static_pages#healthInsurance'
   get 'crearSegSalud' => 'seguros_salud#new'
   get 'listadoClinicas' => 'listado_clinicas#index'
+  get 'ubicacionClinicas' => 'listado_clinicas#find'
   post 'crearSegSalud' => 'seguros_salud#create'
   post 'crearSegVehiculo' => 'seguros_vehiculos#create'
   post 'crearContacto' => 'contacto#create'
