@@ -1,4 +1,3 @@
-=begin
 Clinica.create(nombre:'Centro de Obstetricia y Ginecología',telefono:'809-221-7100',plan:'Royal,Max',ubicacion:'Santo Domingo')
 Clinica.create(nombre:'Centro de Otorrinolaringología y Especialidades',telefono:'809-682-0151',plan:'Royal,Max',ubicacion:'Santo Domingo')
 Clinica.create(nombre:'Centro de Salud de la Mujer Atabey',telefono:'809-412-8177',plan:'Royal,Max',ubicacion:'Santo Domingo')
@@ -164,7 +163,7 @@ Clinica.create(nombre:"Instituto Médico San Lucas",telefono:"809-688-8853",ubic
 Clinica.create(nombre:"Hospital General Regional Dr. Marcelino Velez Santana",telefono:"809-560-6666",ubicacion:"Santo Domingo",plan:"Platinum")
 Clinica.create(nombre:"Centro de Esp. Médicas C & H",telefono:"809-523-5546",ubicacion:"Santo Domingo",plan:"Platinum")
 Clinica.create(nombre:"Oftalmológica M&L",telefono:"809-620-1424",ubicacion:"Santo Domingo",plan:"Platinum")
-=end
+
 Farmacia.create(nombre:"Farmax - SM Nacional",telefono:"809-333-4444",direccion:"27 de Febrero",ubicacion:"Santo Domingo",plan:"Royal,Max,Platinum")
 Farmacia.create(nombre:"Farmacia Berenice I",telefono:"809-592-0947",direccion:"Alma Rosa",ubicacion:"Santo Domingo",plan:"Royal,Max,Platinum")
 Farmacia.create(nombre:"Farmacia Carol",telefono:"809-565-2062",direccion:"Arroyo Hondo",ubicacion:"Santo Domingo",plan:"Royal,Max,Platinum")
