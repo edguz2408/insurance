@@ -13,6 +13,7 @@
       <%= stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Signika:300,400,600,700' %>
       <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" />
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="//cdn.datatables.net/1.10.7/css/jquery.dataTables.css">
       <%= stylesheet_link_tag 'jquery.nouislider' %>
       <%= stylesheet_link_tag 'animate' %> 
       <%= stylesheet_link_tag 'application', media: 'all',
@@ -240,6 +241,7 @@
       <script src="/assets/smoothscroll.js"></script>
       <script src="/assets/parallax.js"></script>
       <script src="/assets/functions.js"></script>
+      <script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.js"></script>
       <script type="text/javascript">
          $(document).ready(function() {
             $('#flash').dialog({
@@ -250,6 +252,19 @@
                } 
                 
             });
+             $('#tblclinicas').DataTable({
+                 "bLengthChange": false,
+                  "language": {
+                  "info": "Mostrando _PAGE_ de _PAGES_ pagina(s)",
+                  "search": "Buscar:",      
+                  "zeroRecords": "No se encontraron clinicas",  
+                    "paginate": {
+                      "previous": "Anterior",    
+                      "next": "Proximo"
+                    }
+                  }
+            });
+            
          });
       </script>
    </body>

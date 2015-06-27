@@ -1,35 +1,4 @@
-<div class="botstrap panel panel-default" style="padding-top:120px;">
-    <div class="panel-heading">Selecione Region</div>
-    <div class="custom-dropdown panel-body">
-        <%= select_tag "ubicacion", options_for_select(['Santo Domingo', 'Region Norte', 'Region Este', 'Region Sur'], 'Santo Domingo') , 
-        :onchange => 'alert("Aun en proceso");', class: 'custom-dropdown-select quote-form-element' %>
-    </div>
-</div>
+<div id="clinicas"><%= render 'find' %></div>
 
 
-<section class="box-with-image-left section-top-space bootstrap">
-    <h1>Listado de Clinicas</h1> 
-
-    <table class="table table-striped">
-    <tr>
-        <th>
-            Clinica
-        </th>
-        <th>
-            Telefono
-        </th>
-    </tr>
-    <% @clinicas.each do |clinica| %>
-       <tr>
-           <td> <%= clinica.nombre %> </td>
-           <td> <%= clinica.telefono %> </td>
-       </tr>
-    <% end %>
- </table>   
- 
-</section>
-
-<div class="bootstrap" style="text-align:center"; >
-    <%= will_paginate @clinicas, :previous_label => 'Anterior', :next_label => 'Proximo' %>
-</div>
 

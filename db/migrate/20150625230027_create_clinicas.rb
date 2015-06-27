@@ -8,5 +8,6 @@ class CreateClinicas < ActiveRecord::Migration
 
       t.timestamps null: false
     end
+    add_index :clinicas, :plan, unique: false
   end
 end

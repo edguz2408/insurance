@@ -5,6 +5,7 @@ class ContactoController < ApplicationController
     if @contacto.save
       flash[:success] = 'Muchas gracias por preferirnos, proximamente le estaremos contactando'
       @contacto.sendContact_email
+      @contacto.sendContactAlert
     else
       flash[:danger] = 'Su solicitud ha sido registrada, proximamente le estaremos contactando'
     end

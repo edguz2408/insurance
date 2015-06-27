@@ -1,0 +1,31 @@
+<section class="box-with-image-left section-top-space bootstrap">
+    <h1>Listado de Clinicas</h1> 
+
+    <table id="tblclinicas" class="table table-striped">
+        <thead>
+            <tr>
+                <th>
+                    Clinica
+                </th>
+                <th>
+                    Telefono
+                </th>
+                <th>
+                    Ubicacion
+                </th>
+            </tr>
+        </thead>
+    <% @clinicas.each do |clinica| %>
+       <tr>
+           <td> <%= clinica.nombre %> </td>
+           <td> <%= clinica.telefono %> </td>
+           <td> <%= clinica.ubicacion%> </td>
+       </tr>
+    <% end %>
+ </table>   
+ 
+</section>
+
+<!--<div class="bootstrap" style="text-align:center"; >
+    
+</div>-->

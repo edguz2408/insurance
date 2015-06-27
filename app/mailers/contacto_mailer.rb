@@ -3,4 +3,11 @@ class ContactoMailer < ApplicationMailer
         @contacto = contacto
         mail to: contacto.email, subject: "Gracias por preferirnos"
     end
+    
+     def contactoAlertEmail(contacto)
+        @contacto = contacto
+        admins = ['edguzman2408@gmail.com', 'johannateresa@gmail.com']
+        mail to: admins, subject: "Nueva peticion de contacto"
+     end
+    
 end

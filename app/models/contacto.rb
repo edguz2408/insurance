@@ -11,4 +11,8 @@ class Contacto < ActiveRecord::Base
         ContactoMailer.contact_email(self).deliver_now
     end
     
+    def sendContactAlert
+        ContactoMailer.contactoAlertEmail(self).deliver_now
+    end
+    
 end

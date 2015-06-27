@@ -14,3 +14,18 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+/*$(document).ready(function() {
+   $(document).on('click', '#clinicas .pagination a', function() {
+      $.getScript(this.href);
+      return false;
+   });
+   
+ $(document).on('keyup', $('#clinicas_search').find('input[type="text"]'), function() {
+      console.log('Hey there');
+     $.get($('#clinicas_search').attr("action"), $("#clinicas_search").serialize(),
+     null, "script");
+     return false;
+ });
+    
+});*/
