@@ -1,25 +1,29 @@
 <section class="box-with-image-left section-top-space bootstrap">
-    <h1>Listado de Clinicas</h1> 
+    <h1>Listado de Farmacias</h1> 
 
-    <table id="tblclinicas" class="table table-striped dataTable">
+    <table id="tblfarmacias" class="table table-striped dataTable">
         <thead>
             <tr>
                 <th>
-                    Clinica
+                    Farmacia
                 </th>
                 <th>
                     Telefono
+                </th>
+                <th>
+                    Direccion
                 </th>
                 <th>
                     Ubicacion
                 </th>
             </tr>
         </thead>
-    <% @clinicas.each do |clinica| %>
+    <% @farmacias.each do |farmacia| %>
        <tr>
-           <td> <%= clinica.nombre %> </td>
-           <td> <%= clinica.telefono %> </td>
-           <td> <%= clinica.ubicacion%> </td>
+           <td> <%= farmacia.nombre %> </td>
+           <td> <%= farmacia.telefono %> </td>
+           <td> <%= farmacia.direccion %> </td>
+           <td> <%= farmacia.ubicacion%> </td>
        </tr>
     <% end %>
  </table>   

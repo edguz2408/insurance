@@ -252,7 +252,8 @@
                } 
                 
             });
-             $('#tblclinicas').DataTable({
+             $('.dataTable').DataTable({
+                 "pageLength": 15,
                  "bLengthChange": false,
                   "language": {
                   "info": "Mostrando _PAGE_ de _PAGES_ pagina(s)",
@@ -264,6 +265,8 @@
                     }
                   }
             });
+            
+            
             
          });
       </script>
