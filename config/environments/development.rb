@@ -46,13 +46,13 @@ config.action_mailer.smtp_settings = {
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-    address:              'smtp.gmail.com',
+    address:              'smtp.mailgun.org',
     port:                 587,
-    domain:               'gmail.com',
-    user_name:            'servclientejls@gmail.com',
-    password:             'javier0415',
-    authentication:       'plain',
-    enable_starttls_auto: true  
+    domain:               'jlopezseguros.com',
+    user_name:            'servicioalcliente@jlopezseguros.com',
+    password:             'Edwin0824',
+    authentication:       'plain'
+    #enable_starttls_auto: true  
     
   }
   
