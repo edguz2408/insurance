@@ -6,7 +6,7 @@ class SegurosSaludMailer < ApplicationMailer
     
     def segurosSaludAlertEmail(segurosSalud)
         @segurosSalud = segurosSalud
-        admins = ['edguzman2408@gmail.com', 'johannateresdsa@gmail.com']
+        admins = ['edguzman2408@gmail.com', 'johannateresa@gmail.com']
         mail to: admins, subject: "Nueva cotizacion Seguro de salud"
     end
     
