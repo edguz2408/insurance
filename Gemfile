@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'therubyracer'
 gem 'rails',        '4.2.0'
 gem 'bcrypt',       '3.1.7'
 gem 'will_paginate','3.0.7'
