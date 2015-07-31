@@ -240,3 +240,83 @@ Farmacia.create(nombre:"Farmacia Los Hidalgos",telefono:"809-566-7703",direccion
 Farmacia.create(nombre:"Farmacia Fortuna I",telefono:"809-682-7979",direccion:"Zona Universitaria",ubicacion:"Santo Domingo",plan:"Royal,Max,Platinum")
 Farmacia.create(nombre:"Farmacia Milagro de la Caridad",telefono:"809-689-3630",direccion:"Zona Universitaria",ubicacion:"Santo Domingo",plan:"Royal,Max,Platinum")
 Farmacia.create(nombre:"Farmacia San Gerónimo",telefono:"809-687-0322",direccion:"Zona Universitaria",ubicacion:"Santo Domingo",plan:"Royal,Max,Platinum")
+
+Farmacia.create(nombre:"Farmacia Virginia",telefono:"809-586-2958",direccion:"Altamira",ubicacion:"Altamira",plan:"Royal,Max,Platinum")
+
+Farmacia.create(nombre:"Farmacia Granados",telefono:"809-525-3733",direccion:"Bonao",ubicacion:"Bonao",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Jacqueline",telefono:"809-525-3711",direccion:"Bonao",ubicacion:"Bonao",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia las Hortencias",telefono:"809-525-3682",direccion:"Bonao",ubicacion:"Bonao",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Monseñor Nouel",telefono:"809-296-2002",direccion:"Bonao",ubicacion:"Bonao",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Sahira",telefono:"809-525-2281",direccion:"Bonao",ubicacion:"Bonao",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Ana Paula",telefono:"809-589-7410",direccion:"Cabrera",ubicacion:"Cabrera",plan:"Royal,Max,Platinum")
+
+Farmacia.create(nombre:"Farmacia Dra. Cleto",telefono:"809-585-3473",direccion:"Cotui",ubicacion:"Cotui",plan:"Royal,Max,Platinum")
+
+Farmacia.create(nombre:"Farmacia Olga Lidia",telefono:"809-579-8979",direccion:"Dajabon",ubicacion:"Dajabon",plan:"Royal,Max,Platinum")
+
+Farmacia.create(nombre:"Farmacia San Miguel",telefono:"809-574-6969",direccion:"Jarabacoa",ubicacion:"Jarabacoa",plan:"Royal,Max,Platinum")
+
+Farmacia.create(nombre:"Farmacia del Valle",telefono:"809-573-9500",direccion:"La Vega",ubicacion:"La Vega",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Olimpica",telefono:"809-242-0999",direccion:"La Vega",ubicacion:"La Vega",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia San José",telefono:"809-539-2516",direccion:"La Vega",ubicacion:"La Vega",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia San Pedro",telefono:"809-573-3910",direccion:"La Vega",ubicacion:"La Vega",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Super Farmacia Independencia",telefono:"809-574-4264",direccion:"La Vega",ubicacion:"La Vega",plan:"Royal,Max,Platinum")
+
+Farmacia.create(nombre:"Farmacia Bogaert",telefono:"809-572-2315",direccion:"Mao",ubicacion:"Mao",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Gisela",telefono:"809-585-8210",direccion:"Mao",ubicacion:"Mao",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Mao",telefono:"809-572-3360",direccion:"Mao",ubicacion:"Mao",plan:"Royal,Max,Platinum")
+
+Farmacia.create(nombre:"Farmacia Amaro",telefono:"809-587-2564",direccion:"Moca",ubicacion:"Moca",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Central",telefono:"809-578-2572",direccion:"Moca",ubicacion:"Moca",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Pappaterra",telefono:"809-587-2252",direccion:"Moca",ubicacion:"Moca",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Popular",telefono:"809-278-1125",direccion:"Moca",ubicacion:"Moca",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Santa Ana",telefono:"809-578-2965",direccion:"Moca",ubicacion:"Moca",plan:"Royal,Max,Platinum")
+
+Farmacia.create(nombre:"Farmacia Gran Poder de Dios",telefono:"809-580-2311",direccion:"Moncion",ubicacion:"Moncion",plan:"Royal,Max,Platinum")
+
+Farmacia.create(nombre:"Farmacia Marcony",telefono:"809-579-2002",direccion:"Monte Cristi",ubicacion:"Monte Cristi",plan:"Royal,Max,Platinum")
+
+Farmacia.create(nombre:"Super Farmacia German",telefono:"809-525-0845",direccion:"Monte Plata",ubicacion:"Monte Plata",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Super Farmacia San Antonio",telefono:"809-551-3037",direccion:"Monte Plata",ubicacion:"Monte Plata",plan:"Royal,Max,Platinum")
+
+Farmacia.create(nombre:"Farmacia Cristal",telefono:"809-584-1324",direccion:"Nagua",ubicacion:"Nagua",plan:"Royal,Max,Platinum")
+
+Farmacia.create(nombre:"Farmacia Pedernales",telefono:"809-524-0533",direccion:"Pedernales",ubicacion:"Pedernales",plan:"Royal,Max,Platinum")
+
+Farmacia.create(nombre:"Farmacia Carmen",telefono:"809-586-5025",direccion:"Puerto Plata",ubicacion:"Puerto Plata",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Las Flores",telefono:"809-261-4273",direccion:"Puerto Plata",ubicacion:"Puerto Plata",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Super Farmacia Centro",telefono:"809-586-8821",direccion:"Puerto Plata",ubicacion:"Puerto Plata",plan:"Royal,Max,Platinum")
+
+Farmacia.create(nombre:"Farmacia Alonzo",telefono:"809-589-2376",direccion:"Rio San Juan",ubicacion:"Rio San Juan",plan:"Royal,Max,Platinum")
+
+Farmacia.create(nombre:"Farmacentro Principal",telefono:"809-240-6760",direccion:"Samana",ubicacion:"Samana",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Famacia Giselle",telefono:"809-538-2303",direccion:"Samana",ubicacion:"Samana",plan:"Royal,Max,Platinum")
+
+Farmacia.create(nombre:"Farmacia Santa María",telefono:"809-588-9616",direccion:"San Francisco de Macoris",ubicacion:"San Francisco de Macoris",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmax La Sirena",telefono:"809-625-4444",direccion:"San Francisco de Macoris",ubicacion:"San Francisco de Macoris",plan:"Royal,Max,Platinum")
+
+Farmacia.create(nombre:"Farmacia Alialy",telefono:"809-583-7920",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Alvin",telefono:"809-736-7546",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Carol - Estrella Sadhala",telefono:"809-724-3535",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Carol - Plaza Master",telefono:"809-724-1471",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Clínica Corominas",telefono:"809-580-1171",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Corazon de Jesús",telefono:"809-576-5059",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Darys",telefono:"809-582-3161",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Elba",telefono:"809-581-3642",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Graciela",telefono:"809-582-2071",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia La Rinconada",telefono:"809-582-0826",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Lidia",telefono:"809-583-3434",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Margarita",telefono:"809-971-1000",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Mariam",telefono:"809-581-3404",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Monumental",telefono:"809-581-4303",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Normal",telefono:"809-471-7111",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Reina",telefono:"809-581-1100",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Santa María - Pricesmart",telefono:"809-724-1414",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Villa Olga",telefono:"809-583-4166",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmacia Vista Linda",telefono:"809-921-0458",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmax Bartolome Colon",telefono:"809-625-4444",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmax La Sirena - Del Sol",telefono:"809-625-4444",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Farmax Nacional - Estrella Sadhala",telefono:"809-625-4444",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+Farmacia.create(nombre:"Super Farmacia Madigna",telefono:"809-575-2676",direccion:"Santiago",ubicacion:"Santiago",plan:"Royal,Max,Platinum")
+
+Farmacia.create(nombre:"Super Farmacia Lourdes",telefono:"809-587-7516",direccion:"Tenares",ubicacion:"Tenares",plan:"Royal,Max,Platinum")

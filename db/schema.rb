@@ -22,6 +22,8 @@ ActiveRecord::Schema.define(version: 20150627171543) do
     t.datetime "updated_at", null: false
   end
 
+  add_index "clinicas", ["plan"], name: "index_clinicas_on_plan"
+
   create_table "contactos", force: :cascade do |t|
     t.string   "nombre"
     t.string   "telefono"

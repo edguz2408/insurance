@@ -26,7 +26,7 @@ production:
   pool: 5
   host: localhost
   username: postgres
-  password: jlopez14
+  password: jlopez14 
   
   
 
